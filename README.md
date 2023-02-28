@@ -16,6 +16,8 @@ npm install s3-zip
 ```
 
 
+** THIS A FORK OF https://github.com/orangewise/s3-zip with AWS V3 LIB **
+
 ## AWS Configuration
 
 Refer to the [AWS SDK][aws-sdk-url] for authenticating to AWS prior to using this plugin.

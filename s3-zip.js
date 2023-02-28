@@ -1,4 +1,4 @@
-const s3Files = require('s3-files')
+const s3Files = require('s3-files-v3')
 const archiver = require('archiver')
 
 const s3Zip = {}
@@ -12,9 +12,9 @@ s3Zip.archive = function (opts, folder, filesS3, filesZip) {
 
   self.debug = opts.debug || false
 
-  if ('s3' in opts) {
+  if ('s3client' in opts) {
     connectionConfig = {
-      s3: opts.s3
+      s3client: opts.s3client
     }
   } else {
     connectionConfig = {
