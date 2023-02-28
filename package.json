@@ -24,12 +24,12 @@
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/sdko/s3-zip-v2/issues"
+        "url": "https://github.com/cinetwork/s3-zip-v3/issues"
     },
-    "homepage": "https://github.com/sdko/s3-zip-v3#readme",
+    "homepage": "https://github.com/cinetwork/s3-zip-v3#readme",
     "dependencies": {
         "archiver": "^5.2.0",
-        "s3-files-v3": "https://github.com/sdko/s3-files-v3"
+        "s3-files-v3": "https://github.com/cinetwork/s3-files-v3"
     },
     "devDependencies": {
         "archiver-zip-encryptable": "^1.0.5",
